@@ -1,0 +1,44 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  overflow: hidden;
+}
+
+.player {
+  width: 100vw;
+  height: 100vh;
+}
+
+.to-google {
+  position: absolute;
+  text-align: right;
+  top: 3vh;
+  width: 100%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+img {
+  width: 8rem;
+  margin-right: 3vw;
+}
+
+.suggestion {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.to-video {
+  width: 20rem;
+  border: 4px solid #f1e956;
+  border-radius: 1rem;
+}
+
+.overvideo {
+  width: 100%;
+}
